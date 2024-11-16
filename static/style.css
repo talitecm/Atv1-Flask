@@ -1,0 +1,16 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding-left: 3em;
+    background-color: blanchedalmond; 
+}
+
+.txt-center{
+    text-align: center;
+}
+
+btn-contato{
+    background-color: antiquewhite;
+    font-size: 12pt;
+    padding: 1em;
+}
