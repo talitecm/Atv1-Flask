@@ -1,31 +1,39 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">
     <title>Apresentação</title>
-</head>
-<body>
-    <div class="container txt-center">
-        <div class="navegacao">
+</head> 
+<body>-->
+{% extends "modelo.html" %}
+{% block conteudo %}
+<!--<div class="container txt-center">
+         <div class="navegacao">
             <nav>
                 <a href="{{url_for('inicio')}}" class="item-nav">Home</a>
                 <a href="{{url_for('formulario')}}" class="item-nav">Contato</a>
             </nav>
-        </div>
-        <div class="cartao">
-            <div class="div-apresentacao">
-                <h1 class="titulo">Chronos Dantas Martins</h1>
+        </div> -->
+<div class="cartao">
+    <div class="div-apresentacao">
+        <h1 class="titulo">Chronos Dantas Martins</h1>
 
-                <img src="../static/Chronos 2.jpeg" alt="foto" class="img-redonda">
-                <h3><hr>Border Colie da Shopee</h3>
-                <p>Natal/RN</p>
-                <p>Macho, Castrado, 4 anos, lindo, caro e trabalhoso.</p>
-                
-                <div class="p-desc"><p>Minha mãe achou que como eu era um cachorro da raça acima, eu iria ser menos caro que meu irmão, Theo. Mas, eu provei pra ela que eu seria mais caro que ele. :)</p></div>
-            </div>
+        <img src="../static/Chronos 2.jpeg" alt="foto" class="img-redonda">
+        <h3>
+            <hr>Border Colie da Shopee
+        </h3>
+        <p>Natal/RN</p>
+        <p>Macho, Castrado, 4 anos, lindo, caro e trabalhoso.</p>
+
+        <div class="p-desc">
+            <p>Minha mãe achou que como eu era um cachorro da raça acima, eu iria ser menos caro que meu irmão, Theo.
+                Mas, eu provei pra ela que eu seria mais caro que ele. :)</p>
         </div>
     </div>
-</body>
-</html>
+</div>
+<!-- </div> -->
+{% endblock %}
+<!-- </body>
+</html> -->

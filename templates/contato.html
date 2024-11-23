@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -13,20 +13,24 @@
                 <a href="{{url_for('inicio')}}" class="item-nav">Home</a>
                 <a href="{{url_for('formulario')}}" class="item-nav">Contato</a>
             </nav>
-        </div>
-        
-        <h1>Contato</h1>
+        </div> -->
 
-        <p class="p-espaco">E-mail:       tlt_cvt@gmail.com</p>
-        <p class="p-espaco">Telefone:     (84) 99999-5598</p>
-        <p class="p-espaco">Endereço:     R. do Totó, 587 - Natal/RN</p>
+{% extends "modelo.html" %}
+{% block conteudo %}
 
-        <form action="{{url_for('sucesso')}}">
-            <h2 class="titulo2">Deixe sua mensagem:</h2>
-            <textarea name="texto-usuario" id="texto-usuario" placeholder="Digite aqui!" rows="10" cols="60"></textarea>
-            <br>
-            <button type="submit" class="btn-subm">Enviar</button>
-        </form>
-    </div>
+<h1>Contato</h1>
+
+<p class="p-espaco">E-mail: tlt_cvt@gmail.com</p>
+<p class="p-espaco">Telefone: (84) 99999-5598</p>
+<p class="p-espaco">Endereço: R. do Totó, 587 - Natal/RN</p>
+
+<form action="{{url_for('sucesso')}}">
+    <h2 class="titulo2">Deixe sua mensagem:</h2>
+    <textarea name="texto-usuario" id="texto-usuario" placeholder="Digite aqui!" rows="10" cols="60"></textarea>
+    <br>
+    <button type="submit" class="btn-subm">Enviar</button>
+</form>
+{% endblock %}
+<!--     </div>
 </body>
-</html>
+</html> -->

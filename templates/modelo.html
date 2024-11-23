@@ -1,29 +1,28 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">
-    <title>Contato</title>
+    <title>Aupresentação</title>
 </head>
+
 <body>
     <div class="container txt-center">
-        <div class="navegacao">
-        <nav>
+        <nav class="navegacao">
             <a href="{{url_for('inicio')}}" class="item-nav">Home</a>
             <a href="{{url_for('formulario')}}" class="item-nav">Contato</a>
         </nav>
-    </div> -->
-{% extends "modelo.html" %}
-{% block conteudo %}
 
-<h1>Obrigado</h1>
+        {%block conteudo%}
+        {%endblock%}
 
-<p>Mensagem enviada com sucesso!</p>
+    </div>
 
-<a href="{{url_for('inicio')}}">Retornar à Home</a>
+    <footer>
+        <p>&#169; 2024 TCnologia. Todos os direitos reservados.</p>
+    </footer>
+</body>
 
-{% endblock %}
-<!--</div>
- </body>
-</html> -->
+</html>
