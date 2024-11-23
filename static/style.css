@@ -1,7 +1,6 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
-    padding-left: 3em;
     background-color: blanchedalmond; 
 }
 
@@ -13,4 +12,87 @@ btn-contato{
     background-color: antiquewhite;
     font-size: 12pt;
     padding: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegacao{
+    width: 100%;
+    height: 30px;
+    background-color: beige;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-nav{
+    text-decoration: none; /* Remove o sublinhado */
+    color: rgb(60, 60, 60); /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-right: 30px;
+}
+
+.cartao{
+    width: 800px;
+    height: 600px;
+    background-color: rgba(255, 190, 100, 0.60);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+.img-redonda{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+
+#texto-usuario{
+    border-radius: 10px;
+    padding: 1em;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+}
+
+.btn-subm{
+    font-size: 12pt;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.p-espaco{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 24pt;
+}
+
+h2{
+    font-size: 16pt;
+}
+
+h3{
+    font-size: 14pt;
+}
+
+.div-apresentacao{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
